@@ -1,0 +1,10 @@
+called: g++
+	/u/d/barrosam/ece244/lab1/convert
+	g++
+	-Wall
+	-O0
+	-g
+	convert.cpp
+	-o
+	convert
+
