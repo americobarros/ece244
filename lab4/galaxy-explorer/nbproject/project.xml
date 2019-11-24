@@ -3,18 +3,30 @@
     <type>org.netbeans.modules.cnd.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>lab2</name>
+            <name>galaxy-explorer</name>
             <c-extensions/>
             <cpp-extensions>cpp</cpp-extensions>
-            <header-extensions/>
+            <header-extensions>hpp</header-extensions>
             <sourceEncoding>UTF-8</sourceEncoding>
             <make-dep-projects/>
             <sourceRootList>
-                <sourceRootElem>.</sourceRootElem>
+                <sourceRootElem>src</sourceRootElem>
             </sourceRootList>
             <confList>
                 <confElem>
-                    <name>Default</name>
+                    <name>Debug_Main</name>
+                    <type>0</type>
+                </confElem>
+                <confElem>
+                    <name>Debug_Test</name>
+                    <type>0</type>
+                </confElem>
+                <confElem>
+                    <name>Release_Main</name>
+                    <type>0</type>
+                </confElem>
+                <confElem>
+                    <name>Release_Test</name>
                     <type>0</type>
                 </confElem>
             </confList>
